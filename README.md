@@ -9,13 +9,36 @@ knowing what this is.
 
 ## How to build
 
-You can use `clang` or `gcc` for compiling the main file. In the root of this
-repo, execute:
+You can use `clang` or `gcc` for compiling the main file.
+`cd` into the root of this repo.
+
+### Make the target directory (optional)
+You can optionally create a directory named `target`:
 
 ```bash
-clang main.c -o target\clox.exe
+mkdir target
 ```
 
+**Note:** you only need to run this once.
+
+### Compile the code
+To compile the code into an binary inside `target`:
+
+```bash
+clang main.c debug.c chunk.c memory.c value.h -o target\clox.exe
+```
+
+**Note:** You can optionally pass any other target path in the `-o` flag.
+
+### Execute
+
+Now you can run the code by `cd`ing into whatever target directory you passed
+in the step above.
+
+E.g.:
+```bash
+.\target\clox.exe
+```
 
 ## Other implementation from me
 
