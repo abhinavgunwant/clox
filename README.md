@@ -40,7 +40,7 @@ E.g.:
 .\target\clox.exe
 ```
 
-## Other implementation from me
+## Other implementations
 
-- jlox - https://github.com/abhinavgunwant/jlox
-
+- My `jlox` implementation - [abhinavgunwant/jlox](https://github.com/abhinavgunwant/jlox)
+- Original implementation(s) from [book's](http://www.craftinginterpreters.com/) author - [munificent/craftinginterpreters](https://github.com/munificent/craftinginterpreters).
