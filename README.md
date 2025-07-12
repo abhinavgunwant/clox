@@ -25,7 +25,7 @@ mkdir target
 To compile the code into an binary inside `target`:
 
 ```bash
-clang main.c debug.c chunk.c memory.c value.h -o target\clox.exe
+clang main.c debug.c chunk.c memory.c value.c vm.c -o target\clox.exe
 ```
 
 **Note:** You can optionally pass any other target path in the `-o` flag.
