@@ -28,6 +28,11 @@ To compile the code into an binary inside `target`:
 clang main.c debug.c chunk.c memory.c value.c vm.c compiler.c scanner.c object.c table.c -o target\clox.exe
 ```
 
+or, on windows:
+```bash
+.\build.ps1
+```
+
 **Note:** You can optionally pass any other target path in the `-o` flag.
 
 ### Execute
